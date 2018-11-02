@@ -28,9 +28,9 @@ class CashRegister
   end
 
   def void_last_transaction
-    @@all_items.last.last
     binding.binding.pry
-    
+    @@all_items.last.last
+
   end
 
 
