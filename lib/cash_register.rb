@@ -27,4 +27,6 @@ class CashRegister
     @@all_items
   end
 
+  
+
 end
