@@ -1,2 +1,3 @@
 class CashRegister
-end 
+  def i
+end
