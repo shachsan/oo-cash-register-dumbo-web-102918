@@ -14,7 +14,7 @@ class CashRegister
 
   def apply_discount
     @total = @total - ((discount/100.0)*@total)
-    puts "After the discount, the total comes to $800."
+    puts "After the discount, the total comes to $#{800}."
     # binding.pry
   end
 
