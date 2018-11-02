@@ -5,4 +5,5 @@ class CashRegister
     @discount = discount
     @total = @total - (discount/100)
   end
+  
 end
