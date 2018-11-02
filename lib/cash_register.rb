@@ -6,4 +6,6 @@ class CashRegister
     @total = @total - (discount/100)
   end
 
+  
+
 end
