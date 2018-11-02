@@ -24,7 +24,7 @@ class CashRegister
   end
 
   def items
-    @@all_items.map {|item_price|}
+    @@all_items.map {|item_price+|}
   end
 
   def void_last_transaction
