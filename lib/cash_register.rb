@@ -24,7 +24,9 @@ class CashRegister
   end
 
   def items
+    
     @@all_items.each do |item_price_pair|
+
     end  {|item_price_pair|item_price_pair.first*item_price_pair.last}
   end
 
