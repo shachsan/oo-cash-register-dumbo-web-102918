@@ -26,7 +26,7 @@ class CashRegister
   def items
     items_list = []
     @@all_items.each do |item_price_pair|
-      item
+      item_price_pair
     end
   end
 
