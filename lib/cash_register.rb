@@ -24,7 +24,7 @@ class CashRegister
   end
 
   def items
-    @@all_items.map {|item_price_pair|item_price_pair.first*item_price_pair.last}
+    @@all_items.each do  {|item_price_pair|item_price_pair.first*item_price_pair.last}
   end
 
   def void_last_transaction
