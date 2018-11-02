@@ -30,7 +30,7 @@ class CashRegister
         items_list << item_price_pair.first
       end
     end
-    
+    items_list
   end
 
   def void_last_transaction
