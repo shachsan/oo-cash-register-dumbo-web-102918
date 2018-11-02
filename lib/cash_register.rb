@@ -27,9 +27,10 @@ class CashRegister
     items_list = []
     @@all_items.each do |item_price_pair|
       item_price_pair.last.times do
-        items_list << item_price_pair.
+        items_list << item_price_pair.first
       end
     end
+    
   end
 
   def void_last_transaction
