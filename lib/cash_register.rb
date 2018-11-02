@@ -1,3 +1,3 @@
 class CashRegister
-  def i
+  def initialize
 end
