@@ -29,7 +29,7 @@ class CashRegister
 
   def void_last_transaction
     @@all_items.last[1] = 0.0
-    binding.pry
+    binding.pry/
 
   end
 
