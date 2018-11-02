@@ -27,7 +27,7 @@ class CashRegister
     items_list = []
     @@all_items.each do |item_price_pair|
       item_price_pair.last.times do
-        items_list << 
+        items_list << item_price_pair.
       end
     end
   end
