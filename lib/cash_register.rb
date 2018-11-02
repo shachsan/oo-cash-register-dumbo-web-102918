@@ -26,8 +26,8 @@ class CashRegister
   def items
     items_list = []
     @@all_items.each do |item_price_pair|
-
-    end  
+      item
+    end
   end
 
   def void_last_transaction
