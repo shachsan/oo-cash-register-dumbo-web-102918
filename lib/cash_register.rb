@@ -28,7 +28,7 @@ class CashRegister
   end
 
   def void_last_transaction
-  return 0.0
+  
 
   end
 
