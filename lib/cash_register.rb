@@ -28,6 +28,7 @@ class CashRegister
     @@all_items.each do |item_price_pair|
       for each_item in item_price_pair.last
         
+      end
     end
   end
 
