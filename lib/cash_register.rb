@@ -32,5 +32,6 @@ class CashRegister
     binding.binding.pry
     0
   end
+  
 
 end
